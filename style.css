@@ -1,0 +1,18 @@
+/* * Copyright (c) 2026 Golu
+ * Project: Front-End Practice Dashboard
+ * License: MIT
+ */
+
+/* style.css */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}

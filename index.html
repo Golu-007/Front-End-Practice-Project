@@ -1,0 +1,189 @@
+<!-- * Copyright (c) 2026 Golu
+ * Project: Front-End Practice Dashboard
+ * License: MIT
+  -->
+
+<!doctype html>
+
+<!-- To write comments,Which is a very good practice to have then,
+  you just need to click "ctrl+/(forwardslash)" on windows
+  and on MacOs "command+/". It works almost in every code editors for any programming language -->
+
+<html lang="en">
+  <!--If any fellow learner curious about what is going through each line of code,
+   then you just need to take your cursor on the exact content. 
+  It will automatically take you to the best reference  -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Golu's Web Dev Front-End Playground</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body class="bg-light">
+    <!-- first-section || The project heading -->
+    <nav class="navbar navbar-dark bg-dark mb-4">
+      <div class="container">
+        <span class="navbar-brand mb-0 h1">Frontend Practice Repository</span>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- second-section || The project description -->
+      <header class="text-center mb-5">
+        <h1 id="welcome">Welcome to Learning Journey</h1>
+        <p class="lead">
+          A collection of simple components, API integrations, and UI
+          experiments.Just using simple HTML<i
+            class="fa-brands fa-html5 text-danger"
+          ></i
+          >,CSS<i class="fa-brands fa-css3-alt text-info"></i> and JAVASCRIPT<i
+            class="fa-brands fa-js-square text-warning"
+          ></i
+          >.These simple examples will help you from your very first day, If you
+          started your developer journey today!!.
+        </p>
+      </header>
+
+      <div class="row g-4">
+        <!-- third-section || Your personal-portfolio goes here with your F-Name "just link yourname.html here" -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">
+                Our portfolio <i class="fa-solid fa-globe"></i>
+              </h5>
+              <p class="card-text">
+                If you are excited to know more about us come here ❤️.
+              </p>
+              <a href="Golu.html" class="btn btn-outline-primary btn-sm"
+                >Golu</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- All other examples goes here in their appropriate card -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">
+                Bootstrap Labs <i class="fa-brands fa-bootstrap"></i>
+              </h5>
+              <p class="card-text">Exploring Bootstrap.</p>
+              <a
+                href="bootstrap-class-container.html"
+                class="btn btn-outline-primary btn-sm"
+                >Bootstrap container</a
+              >
+              <a
+                href="bootstrap-colors.html"
+                class="btn btn-outline-primary btn-sm"
+                >Bootstrap colors</a
+              >
+              <a
+                href="bootstrap-page.html"
+                class="btn btn-outline-primary btn-sm"
+                >Bootstrap page</a
+              >
+              <a
+                href="bootstrap-text-color.html"
+                class="btn btn-outline-primary btn-sm"
+                >Bootstrap text</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">
+                Google API Integration <i class="fa-brands fa-google"></i>
+              </h5>
+              <p class="card-text">Exploring Google.</p>
+              <a href="google-chart.html" class="btn btn-outline-primary btn-sm"
+                >Google chart</a
+              >
+              <a href="google-fonts.html" class="btn btn-outline-primary btn-sm"
+                >Google fonts</a
+              >
+              <a href="google-maps.html" class="btn btn-outline-primary btn-sm"
+                >Google maps</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Form and Table</h5>
+              <p class="card-text">An simple example</p>
+              <a href="form.html" class="btn btn-primary btn-sm">Form</a>
+              <a href="table.html" class="btn btn-primary btn-sm">Table</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Create a .html file for your passion and idol in the project and just add link on this card -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-warning">
+            <div class="card-body text-center">
+              <i class="fa-solid fa-medal fa-3x text-warning mb-3"></i>
+              <h5 class="card-title">Tribute: Passion and Idol</h5>
+              <p class="card-text">
+                A simple tribute page for your passion and inspiration goes
+                here.
+              </p>
+              <a href="Dhoni.html" class="btn btn-warning btn-sm">MSD</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Here like "Cake project" 
+      you can showcase your a little special project with a different card
+      with the exact project name -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Cake Project 🎂</h5>
+              <p class="card-text">A full HTML/CSS/JS mini-app.</p>
+              <a href="Cake.html" class="btn btn-primary btn-sm">Launch App</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center mt-5 py-4 border-top">
+      <p>
+        &copy;<span id="display-date"></span> Golu | Open for Collaboration |
+        Thanks everyone please ❤️ & 🤝
+      </p>
+    </footer>
+
+    <!-- A special and kind reminder- Please don't do anything extra
+     here at index.html, style.css and index.js.
+     And in the entire project keep things simple and as instructed 
+     THANKS FOR YOUR KIND UNDERSTANDING AND LOVE ❤️🤝🧑‍💻🙏🫰
+     
+     NOTE: P for PROGRAMMING & P for PATIENCE
+     "TILL THE FULL STOP DOESN'T COME,
+     SENTENCE IS NOT COMPLETE."
+     
+     "Learning with passion rather than unnecessary obsession"
+     
+     THANKS AGAIN EVERYONE & NEVER NEVER GIVE UP KEEP MOVING ⏩-->
+
+    <script src="index.js"></script>
+  </body>
+</html>
