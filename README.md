@@ -12,7 +12,7 @@ Thanks - Keep contributing and do improvements with simplicity and also encourag
 ---
 
 ### ⚠️ SPECIAL NOTE
-**DON'T CHANGE ANYTHING ON index.html, style.css, index.js rather than just putting your personal portfolio with your F-Name on a separate card! And all other of your work go on specified card!**
+**DON'T CHANGE ANYTHING ON index.html, style.css, index.js rather than just putting your personal portfolio with your F-Name on our portfolio card! And all other of your work go on specified card!**
 
 Just use simple HTML, CSS & JS because this is Front-end for curious learners who started just!!! THANKS EVERYONE ❤️🤝.
 
